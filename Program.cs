@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Dictionary<int, int> freqMap = new();
             int[] myArray = Prompt();
             CalculateFrequency(myArray);
         }
